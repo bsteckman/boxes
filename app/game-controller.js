@@ -40,8 +40,4 @@ app.controller('GameController', function ($scope) {
         }
     }
     
-    $scope.reset = function (){
-       $scope.x= 0;
-       $scope.y=0;
-    }
 })
